@@ -9,7 +9,7 @@
 #include <string.h>
 #include <unistd.h>
 
-// DO NOT MODIFY THIS FILE. INVOKE AFTER EACH ACCESS FROM runTrace
+// DO NOT MODIFY THIS FILE. INVOKE AFTER EACH ACCESS FROM runTrace///////
 void print_result(result r) {
   if (r.status == CACHE_EVICT)
     printf(" [status: miss eviction, victim_block: 0x%llx, insert_block: 0x%llx]",
